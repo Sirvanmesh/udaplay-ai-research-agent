@@ -1,0 +1,22 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Generated vector database (rebuilt by Part 1)
+chromadb/
+
+# Misc
+*.zip
+.DS_Store
+
+# Files over 100 MB (GitHub limit) - none at the moment; list them here if any appear
